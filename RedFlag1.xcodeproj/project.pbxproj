@@ -14,6 +14,11 @@
 		79BD13F62A8443E600162858 /* RedFlag1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BD13F52A8443E600162858 /* RedFlag1Tests.swift */; };
 		79BD14002A8443E600162858 /* RedFlag1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BD13FF2A8443E600162858 /* RedFlag1UITests.swift */; };
 		79BD14022A8443E600162858 /* RedFlag1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BD14012A8443E600162858 /* RedFlag1UITestsLaunchTests.swift */; };
+		79BD140F2A84547B00162858 /* SplachScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BD140E2A84547B00162858 /* SplachScreenView.swift */; };
+		79BD14132A8467B500162858 /* SPAMClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 79BD14122A8467B500162858 /* SPAMClassifier.mlmodel */; };
+		79BD14582A85BF3600162858 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BD14572A85BF3600162858 /* About.swift */; };
+		79BD145A2A85CFFF00162858 /* Rebort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BD14592A85CFFF00162858 /* Rebort.swift */; };
+		79BD145C2A85D63300162858 /* tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BD145B2A85D63300162858 /* tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		79BD13FB2A8443E600162858 /* RedFlag1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedFlag1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BD13FF2A8443E600162858 /* RedFlag1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedFlag1UITests.swift; sourceTree = "<group>"; };
 		79BD14012A8443E600162858 /* RedFlag1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedFlag1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79BD140E2A84547B00162858 /* SplachScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplachScreenView.swift; sourceTree = "<group>"; };
+		79BD14122A8467B500162858 /* SPAMClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SPAMClassifier.mlmodel; sourceTree = "<group>"; };
+		79BD14572A85BF3600162858 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		79BD14592A85CFFF00162858 /* Rebort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rebort.swift; sourceTree = "<group>"; };
+		79BD145B2A85D63300162858 /* tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 			children = (
 				79BD13E32A8443E400162858 /* RedFlag1App.swift */,
 				79BD13E52A8443E400162858 /* ContentView.swift */,
+				79BD14572A85BF3600162858 /* About.swift */,
+				79BD14592A85CFFF00162858 /* Rebort.swift */,
+				79BD145B2A85D63300162858 /* tab.swift */,
+				79BD140E2A84547B00162858 /* SplachScreenView.swift */,
+				79BD14122A8467B500162858 /* SPAMClassifier.mlmodel */,
 				79BD13E72A8443E600162858 /* Assets.xcassets */,
 				79BD13E92A8443E600162858 /* RedFlag1.entitlements */,
 				79BD13EA2A8443E600162858 /* Preview Content */,
@@ -259,6 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79BD14582A85BF3600162858 /* About.swift in Sources */,
+				79BD145A2A85CFFF00162858 /* Rebort.swift in Sources */,
+				79BD14132A8467B500162858 /* SPAMClassifier.mlmodel in Sources */,
+				79BD145C2A85D63300162858 /* tab.swift in Sources */,
+				79BD140F2A84547B00162858 /* SplachScreenView.swift in Sources */,
 				79BD13E62A8443E400162858 /* ContentView.swift in Sources */,
 				79BD13E42A8443E400162858 /* RedFlag1App.swift in Sources */,
 			);
