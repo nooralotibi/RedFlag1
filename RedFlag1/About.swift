@@ -10,7 +10,6 @@ import SwiftUI
 struct About: View {
     var body: some View {
         ZStack {
-
             Image("Image")
                 .resizable()
                 .ignoresSafeArea()
@@ -25,7 +24,6 @@ struct About: View {
                             .font(Font.custom("NotoSans-DisplaySemiBold", size: 18))
                             .bold()
                             .foregroundColor(Color(red: 0.33, green: 0.33, blue: 0.33))
-//
 
                             .padding(.leading, -128.0)
                             .padding(.bottom,-6)

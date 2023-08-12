@@ -13,7 +13,6 @@ struct ContentView: View {
     @State private var inputText = ""
     @State private var classificationLabel = ""
 
-
     var body: some View {
         ZStack {
 
@@ -22,7 +21,6 @@ struct ContentView: View {
                 .ignoresSafeArea()
                 .scaledToFill()
                 .frame(maxWidth: .infinity)
-
             VStack {
            
                     TextField("Type or paste your text here..", text: $inputText,axis: .vertical)

@@ -20,7 +20,6 @@ struct tab: View {
 
                 }
         .accentColor(Color(hue: 0.015, saturation: 0.809, brightness: 0.675))
-
     }
 }
 
