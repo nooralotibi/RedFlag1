@@ -18,24 +18,14 @@ struct SplashScreenView: View {
      @State  var offset: Int
     
 var body: some View {
-//    if isActive {
-//             tab()
-//             
-//         }
+
     NavigationView{
         VStack{
-            
-         
-            
-            
-            
-          
-                Image("logo1")
+    
+            Image("logo1")
                     .resizable()
                     .frame(width: 550,height: 750)
-                   
-                
-                
+     
             }
             .scaleEffect(size)
             .opacity(opacity)
